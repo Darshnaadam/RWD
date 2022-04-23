@@ -1,0 +1,32 @@
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+/*first you should give a name to a animation and duration of animation and the name is mentioned after the keyframes*/
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 4s;
+  }
+  /*in keyframes we type the things we want to apply to an animation*/
+  @keyframes rainbow {
+    /*0% represent starting of an animation and 100% represent the ending of and animation*/
+    0%{
+      background-color: blue;
+    }
+    50%{
+      background-color: green;
+    }
+    100%{
+      background-color:yellow; 
+    }
+  }
+
+
+
+
+</style>
+<div id="rect"></div>
